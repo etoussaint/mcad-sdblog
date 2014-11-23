@@ -1,0 +1,19 @@
+.blog-title {
+  color:            $black;
+  background-color: $white;
+  max-width:        12em;
+  line-height:      1.25;
+  font-size:        1.9em;
+  text-decoration:  none;
+}
+
+.blog-title a {
+  color:            $black;
+  background-color: $white;
+  max-width:        10em;
+  line-height:      1.25;
+  text-decoration:  none;
+  .logo-sdo {
+    color:          $color-logo-sdo;
+  }
+}
