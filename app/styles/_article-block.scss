@@ -25,12 +25,37 @@ article.style {
   width:       45%;
 }
 
+.category-red {
+  background:  linear-gradient($red,transparent);
+}
+.category-yellow {
+  background:  linear-gradient($yellow,transparent);
+}
 .category-purple {
   background:  linear-gradient($purple,transparent);
+}
+.category-green {
+  background:  linear-gradient($green,transparent);
+}
+.category-blue {
+  background:  linear-gradient($blue,transparent);
+}
+
+.category-red :hover {
+  background:  $red;
+}
+.category-yellow :hover {
+  background:  $yellow;
 }
 
 .category-purple :hover {
   background:  $purple;
+}
+.category-green :hover {
+  background:  $green;
+}
+.category-blue :hover {
+  background:  $blue;
 }
 
 .article-block .date, .subject {
@@ -41,15 +66,17 @@ article.style {
 .article-block .date{
   float:       right;
 }
+
 .article-block img {
   z-index:     -10;
-  max-width:   none;
+  position:    absolute;
+  width:       100%;
+  height:      100%;
+  top:         0px;
+
 }
 
-.article-block img{
-  position:    absolute;
-  width:       auto;
-  height:      320px;
-  top:         0px;
-  left:        -71.4131736526946px;
+
+img{
+  border:     none
 }
