@@ -1,0 +1,30 @@
+.social-media {
+  text-transform: uppercase;
+  font-weight:    500;
+  font-size:      1em;
+
+  h2 {
+    @include visuallyhidden
+  }
+  ul{
+    @include clearfix;
+    border:  1px solid red;
+    height: 34px;
+    padding: 4px;
+    width: 13.7%;
+  }
+  li {
+    float:   left;
+    margin-right: 1.33em;
+    padding:  0em;
+    list-style-type: none;
+    border-bottom: 0.4em solid transparent;
+
+  }
+  a {
+    color: $black;
+    text-decoration: none;
+    padding: 0em;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,39 @@
+.utility-nav {
+  @include            clearfix;
+  margin:             0;
+  padding:            0.25em;
+  list-style-type:    none;
+  font-size:          0.75em;
+  font-weight:        500;
+  line-height:        1;
+
+  a {
+    color:            $black;
+    list-style-type:  none;
+    text-decoration:  none;
+  }
+
+  li {
+    list-style-type:  none;
+    float:            left;
+    width:            6em;
+    margin-right:     2.5em;
+    border-left:      1px solid $black;
+    padding:          0.25em 0.5em;
+    opacity:          0.5;
+    &:hover {
+      opacity:        1;
+    }
+  }
+  .broch {
+    background:       url('../images/book.png') no-repeat right center;
+    width:            8em;
+  }
+  .mcadx{
+    background:       url('../images/png-2.png') no-repeat;
+    width:            1em;
+  }
+  .sustain{
+
+  }
+}

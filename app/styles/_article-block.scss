@@ -1,0 +1,55 @@
+article.style {
+  overflow:   hidden;
+  position:   relative;
+}
+
+.article-block {
+  @include clearfix;
+  border:  1px solid red;
+  list-style-type: none;
+  height:      20em;
+  width:       100%;
+  padding:     1em;
+  margin:      .5em;
+  float:       left;
+  color:       #fff;
+}
+
+.article-block.block-small {
+  width:       25%;
+}
+.article-block.block-medium {
+  width:       35%;
+}
+.article-block.block-large {
+  width:       45%;
+}
+
+.category-purple {
+  background:  linear-gradient($purple,transparent);
+}
+
+.category-purple :hover {
+  background:  $purple;
+}
+
+.article-block .date, .subject {
+  margin:      0;
+  font-size:   .9em;
+}
+
+.article-block .date{
+  float:       right;
+}
+.article-block img {
+  z-index:     -10;
+  max-width:   none;
+}
+
+.article-block img{
+  position:    absolute;
+  width:       auto;
+  height:      320px;
+  top:         0px;
+  left:        -71.4131736526946px;
+}
